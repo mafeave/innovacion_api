@@ -16,8 +16,7 @@ db.init_app(app)
 
 
 # Crear tablas la primera vez
-@app.before_first_request
-def create_tables():
+with app.app_context():
     db.create_all()
 
 

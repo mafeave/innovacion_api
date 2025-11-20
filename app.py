@@ -72,7 +72,12 @@ def listar_propuestas():
         "ID_Propuesta": p.ID_Propuesta,
         "Nombre_proyecto": p.Nombre_proyecto,
         "ID_Usuario": p.ID_Usuario,
-        "Fecha_envio": p.Fecha_envio
+        "Fecha_envio": p.Fecha_envio,
+        "Nombre_propuesta": p.Nombre_propuesta,
+        "Descripcion_propuesta": p.Descripcion_propuesta,
+        "Solucion_propuesta": p.Solucion_propuesta,
+        "Area_impacto": p.Area_impacto,
+        "Descripcion_general": p.Descripcion_general
     } for p in propuestas])
 
 
